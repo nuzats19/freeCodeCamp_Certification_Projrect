@@ -17,12 +17,6 @@ This is a responsive survey form created as part of the FreeCodeCamp certificati
 - HTML5
 - CSS3
 
-## How to Use
-
-1. Clone the repository or download the files.
-2. Open the `index.html` file in your web browser to view the survey form.
-3. Fill out the form and submit it.
-
 ## CSS Styles
 
 The styles are defined in `styles.css` and include:
@@ -32,12 +26,21 @@ The styles are defined in `styles.css` and include:
 - Styled inputs, labels, and buttons for better user experience
 - Hover effects for buttons
 
+## 🖼️ Website Preview
+Here’s how the website looks:
 ![Screen Shot 2025-02-24 at 10 05 22 PM](https://github.com/user-attachments/assets/852f267d-cb44-4d4c-ab04-a03059d93548)
 ![Screen Shot 2025-02-24 at 10 05 36 PM](https://github.com/user-attachments/assets/bd4307aa-5e67-4496-a25e-79f0b1a02d21)
 
 ### Acknowledgments
 Thanks to FreeCodeCamp for providing a platform to learn and develop coding skills.
 Special thanks to the community for feedback and support during the project.
+
+
+## How to Use
+
+1. Clone the repository or download the files.
+2. Open the `index.html` file in your web browser to view the survey form.
+3. Fill out the form and submit it.
 
 ### Instructions:
 - **Preview Image**: Replace the placeholder link with an appropriate image or keep it as a preview if you want.
