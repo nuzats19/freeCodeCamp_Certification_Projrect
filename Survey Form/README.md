@@ -23,10 +23,6 @@ This is a responsive survey form created as part of the FreeCodeCamp certificati
 2. Open the `index.html` file in your web browser to view the survey form.
 3. Fill out the form and submit it.
 
-## Preview
-
-![Survey Form Preview](https://www.dropbox.com/scl/fi/2kbt8oap6ncbk01jv6fmw/Screen-Shot-2025-02-24-at-9.57.46-PM.png?raw=1)
-
 ## CSS Styles
 
 The styles are defined in `styles.css` and include:
