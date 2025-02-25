@@ -1,7 +1,8 @@
 body {
   width:100%;
-  background-color: rgb(163, 198, 212);
-  color: rgb(71, 69, 69);
+  background: url("https://www.dropbox.com/scl/fi/2kbt8oap6ncbk01jv6fmw/Screen-Shot-2025-02-24-at-9.57.46-PM.png?rlkey=b1le8813gkl1h51vwuogyme5t&st=pftkn0zg&dl=1")no-repeat center center fixed;
+  background-size: cover;
+  color: rgb(253, 253, 253);
   height: 100vh;
   margin:0;
   padding-top:60px; 
@@ -23,7 +24,7 @@ p{
 }
 .form-container {
   color: rgb(236, 232, 232);
-  background-color: #5c8bb3;
+  background-color: #426380;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
