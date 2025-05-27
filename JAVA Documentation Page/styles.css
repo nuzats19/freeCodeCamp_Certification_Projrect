@@ -1,0 +1,122 @@
+*{
+  margin: 0;
+}
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7;
+  background-color: #f8f1f1;
+}
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 300px;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  border-right: 2px solid #333;
+}
+#navbar header {
+  font-size: 1.6rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+#navbar ul {
+  list-style: none;
+  padding: 0;
+}
+
+#navbar li {
+  border-bottom: 1px solid #ccc;
+}
+#navbar li:last-child {
+  border: none;
+  margin-bottom: 2rem;
+} 
+
+.nav-link {
+  display: block;
+  padding: 0.8rem 1rem;
+  text-decoration: none;
+  color: rgb(81, 78, 78);
+}
+
+
+#main-doc {
+  position: absolute;
+  margin-left: 330px;
+  padding: 2rem 1rem;
+}
+#main-doc .main-section{
+  font-size: 1.6rem;
+  padding: .8rem 0;
+}
+#main-doc header{
+  padding: 1rem 0;
+}
+#main-doc  .main-article{
+  font-size: 1rem;
+  padding-left: 1.5rem;
+  margin-bottom: .5rem;
+  color: rgb(51, 50, 50);
+}
+#main-doc .main-article p{
+  margin-bottom: 1rem;
+}
+#main-doc .main-article ul{
+  margin: 1.3rem 0 0 1.3rem;
+}
+#main-doc .main-article ul li{
+  margin-bottom: 1rem;
+}
+#main-doc .main-article code {
+  display: block;
+  padding: 1.5rem;
+  text-align: left;
+  background-color: rgb(255, 255, 255);
+  border-radius: 7px;
+  margin-bottom: 1rem;
+}
+#main-doc #main-section:lastchild .main-article ul{
+  margin: .5rem 0 1.5rem 3rem;
+  padding: 0;
+}
+#creator{
+  text-align: left;
+  padding: 2rem 0 0;
+}
+@media only screen and (max-width: 478px) {
+  #navbar {
+    visibility: visible;
+    width: 100%;
+    margin: 0;
+  }
+}
+
+/* Mobile View: stack navbar on top */
+@media (max-width: 768px) {
+  /* Make navbar and main-doc display side by side */
+  #navbar, #main-doc {
+    display: inline-block;
+    position: absolute;
+    vertical-align: top;
+    width: 50%; /* Adjust as needed */
+    box-sizing: border-box;
+  }
+
+  #navbar header {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+
+  #navbar {
+    padding: 10px;
+  }
+
+  #main-doc {
+    padding: 10px;
+  }
+}
+
