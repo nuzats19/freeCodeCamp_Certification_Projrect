@@ -5,6 +5,7 @@
 }
 html {
   height: 100%;
+  margin: 15%;
 }
 :root {
   --light-grey: #f5f6f7;
@@ -87,7 +88,7 @@ h1 {
 #output {
   padding-left: 20px;
   width: 256px;
-  height: 40px;
+  height: 100px;
   border: none;
   border-radius: 12px;
   text-align: center;
